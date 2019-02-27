@@ -1,5 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
+import './Navs.css'
+import logo from '../../images/logos-kona.png'
 
 class Navs extends Component {
     render() {
@@ -7,7 +9,7 @@ class Navs extends Component {
             <Fragment>
                 <Nav>
                     <NavItem>
-                        <NavLink href="#">Home</NavLink>
+                        <NavLink href="#"><img className='logo' src={logo} alt='logo'/></NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="#">About as</NavLink>
