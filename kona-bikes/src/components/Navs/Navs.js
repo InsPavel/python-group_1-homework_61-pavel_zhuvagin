@@ -9,10 +9,10 @@ class Navs extends Component {
             <Fragment>
                 <Nav>
                     <NavItem>
-                        <NavLink href="#"><img className='logo' src={logo} alt='logo'/></NavLink>
+                        <NavLink onClick={this.props.homeHandler}><img className='logo' src={logo} alt='logo'/></NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">About as</NavLink>
+                        <NavLink onClick={this.props.aboutHandler}>About as</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="#">Contacts</NavLink>

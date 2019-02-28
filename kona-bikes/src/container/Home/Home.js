@@ -6,16 +6,21 @@ import Content from "../../components/Content/Content";
 
 
 class Home extends Component {
+    aboutKonaHandler = () => {
+        this.props.history.push({
+            pathname: '/about',
+        })
+    };
+
+
     render() {
         return (
             <Fragment>
-                <div className='background'>
-                    <div className="home">
-                        <Navs/>
-                        <Example/>
-                        <Content/>
-                    </div>
-                </div>
+                <Navs
+                    aboutHandler={this.aboutKonaHandler}
+                />
+                <Example/>
+                <Content/>
             </Fragment>
         )
     }
