@@ -9,6 +9,11 @@ body {
 
 .background {
     width: 100%;
+    min-height: 100%;
     position: absolute;
     background-color:rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    width: 80%;
 }

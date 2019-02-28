@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import Navs from "../../components/Navs/Navs";
-import ContactsContent from "../../components/ContactsInfo/ContactsContent";
+import ContactsContent from "../../components/ContactsContent/ContactsContent";
 
 class Contacts extends Component{
     homeKonaHandler = () => {

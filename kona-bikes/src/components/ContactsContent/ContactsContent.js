@@ -17,7 +17,7 @@ class ContactsContent extends Component {
                         <h5>Телефоны, факсы:</h5>
                         <p>360 656 5862</p>
                         <h5>E-mail:</h5>
-                        <p><a href="#">shop@konabikes.com</a></p>
+                        <p>shop@konabikes.com</p>
                     </div>
                 </div>
             </Fragment>

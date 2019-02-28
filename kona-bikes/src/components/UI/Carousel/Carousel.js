@@ -12,17 +12,17 @@ const items = [
   {
     src: 'https://p.vitalmtb.com/photos/product_reviews/2744/title_image/s1600_KonaOperA_825967.jpg?1495212836',
     altText: 'Slide 1',
-    caption: 'Slide 1'
+    caption: '1'
   },
   {
     src: 'http://www.jejamescycles.com/media/wysiwyg/Top_Pic.jpg',
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: '2'
   },
   {
     src: 'https://i.vimeocdn.com/video/599419896_1280x720.jpg',
     altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: '3'
   }
 ];
 
@@ -73,7 +73,7 @@ class Example extends Component {
           key={item.src}
         >
           <img className="d-block w-100" src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <CarouselCaption captionText={item.caption}/>
         </CarouselItem>
       );
     });
