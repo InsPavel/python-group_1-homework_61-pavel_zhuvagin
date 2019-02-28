@@ -12,7 +12,7 @@ class Navs extends Component {
                         <NavLink onClick={this.props.homeHandler}><img className='logo' src={logo} alt='logo'/></NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav_li' onClick={this.props.aboutHandler}><span>About as</span></NavLink>
+                        <NavLink  className='nav_li' onClick={this.props.aboutHandler}><span>About as</span></NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav_li' onClick={this.props.contactsHandler}><span>Contacts</span></NavLink>
