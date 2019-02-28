@@ -9,11 +9,20 @@ class AboutUs extends Component{
         })
     };
 
+    contactsKonaHandler = () => {
+        this.props.history.push({
+            pathname: '/contacts',
+        })
+    };
+
     render(){
         return(
             <Fragment>
                 <div className='about_us'>
-                    <Navs homeHandler={this.homeKonaHandler}/>
+                    <Navs
+                        homeHandler={this.homeKonaHandler}
+                        contactsHandler={this.contactsKonaHandler}
+                    />
                     <AboutContent/>
                 </div>
             </Fragment>

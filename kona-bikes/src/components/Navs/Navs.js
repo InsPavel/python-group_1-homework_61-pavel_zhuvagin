@@ -15,7 +15,7 @@ class Navs extends Component {
                         <NavLink onClick={this.props.aboutHandler}>About as</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Contacts</NavLink>
+                        <NavLink onClick={this.props.contactsHandler}>Contacts</NavLink>
                     </NavItem>
                 </Nav>
             </Fragment>

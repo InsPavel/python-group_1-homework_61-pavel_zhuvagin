@@ -12,12 +12,19 @@ class Home extends Component {
         })
     };
 
+    contactsKonaHandler = () => {
+        this.props.history.push({
+            pathname: '/contacts',
+        })
+    };
+
 
     render() {
         return (
             <Fragment>
                 <Navs
                     aboutHandler={this.aboutKonaHandler}
+                    contactsHandler={this.contactsKonaHandler}
                 />
                 <Example/>
                 <Content/>

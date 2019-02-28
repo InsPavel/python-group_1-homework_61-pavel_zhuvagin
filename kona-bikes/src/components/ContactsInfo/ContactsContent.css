@@ -1,0 +1,11 @@
+.contacts_info {
+    background: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    padding: 10px;
+    margin: 2% auto 0 auto;
+}
+
+.contacts_text {
+    color: white;
+    padding: 10px;
+}
