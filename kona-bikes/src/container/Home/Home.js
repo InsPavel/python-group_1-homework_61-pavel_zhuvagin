@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
-import './Home.css'
 import Example from "../../components/UI/Carousel/Carousel";
 import Content from "../../components/Content/Content";
+import './Home.css'
 
 
 class Home extends Component {

@@ -8,16 +8,16 @@ class ContactsContent extends Component {
                 <div className='contacts_info'>
                     <div className='contacts_text'>
                         <h5>Наименование организации:</h5>
-                        <p>The Kona Bike</p>
+                            <p>The Kona Bike</p>
                         <h5>Адрес:</h5>
-                        <p>1622 N State Street, Bellingham</p>
-                        <p>Режим работы - ежедневно с 10:00 до 18:00.</p>
+                            <p>1622 N State Street, Bellingham</p>
+                            <p>Режим работы - ежедневно с 10:00 до 18:00.</p>
                         <h5>URL-адрес:</h5>
-                        <p><a href="https://konabikes.com/">https://konabikes.com</a></p>
+                            <p><a href="https://konabikes.com/">https://konabikes.com</a></p>
                         <h5>Телефоны, факсы:</h5>
-                        <p>360 656 5862</p>
+                            <p>360 656 5862</p>
                         <h5>E-mail:</h5>
-                        <p>shop@konabikes.com</p>
+                            <p>shop@konabikes.com</p>
                     </div>
                 </div>
             </Fragment>
